@@ -1,0 +1,592 @@
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: open-sans;
+    src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    margin: 0;
+}
+
+
+/* NAVIGATION */
+.nav{
+    /* border: 1px solid; */
+    min-width: 1em;         
+    height: 74px;
+    text-align: center;
+}
+.nav i{
+    /* border: 1px solid; */
+    font-size: 1.6rem;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+
+/* FIRST PIC */
+.home-pane{
+    /* border: 1px solid; */
+    width: 100%;   
+    min-height: 785px;
+    background-image: url(images/front-view-kid-wearing-party-hat.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+
+}
+.home-pane .first-content{
+    /* border: 1px solid; */
+    width: calc(((100% - 1140px) / 2) + 530px);
+    min-height: 330px;
+    margin: 0 auto 60px 0;
+    background-color: white;
+    border-bottom-right-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    padding: 30px 21px;
+    position: absolute;
+    top: 40%;
+    
+}
+.first-content h1{
+    /* border: 1px solid; */
+    font-size: 6rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 44px 0 0 99px;
+    line-height: 1.1;
+    font-family: lobster;
+    color: #f1c50e !important;
+}
+.first-content h3{
+    /* border: 1px solid; */
+    padding: 0;
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 500;
+    margin: 0 92px 0 99px;
+    font-family: montserrat;
+    
+}
+.first-content p{
+    /* border: 1px solid; */
+    margin: 0;
+    padding: 0;
+    font-family: open-sans;
+    margin: 32px 92px 0 99px;
+}
+.first-content a{
+    color: #f1c50e !important;
+}
+
+/* WHAT WE DO */
+.what-we-do{   
+    /* border: 1px solid red;      */
+    background-image: url(images/bg-img-2.jpg);
+    margin-bottom: 0;
+    width: 100%;
+    height: 458px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.what-we-do h2{
+    /* border: 1px solid; */
+    font-family: lobster;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 70px;
+
+}
+
+/* FLEX CONTAINER */
+.to-do-container{
+    /* border: 1px solid; */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% auto 1%;
+    /* text-align: left; */
+    /* align-content: space-between; */
+    /* gap: 50px; */
+    /* position: relative;
+    top: 115px;
+    left: 220px; */
+    /* line-height: 2; */
+}
+.to-do-container  h5{
+    /* border: 1px solid; */
+    font-family: montserrat;
+    margin: 30px auto 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    /* line-height: 1.2; */
+}
+.to-do-container  p{
+    /* border:1px solid; */
+    max-width: 235px;
+    font-family: open-sans;
+    font-weight: 500;
+    font-size: 1rem;
+    /* line-height: 1.6; */
+    word-wrap: break-word;
+    /* text-align: center; */
+
+}
+.to-do-flex-1,.to-do-flex-2, .to-do-flex-3 ,.to-do-flex-4{
+    /* border: 1px solid; */
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+
+}
+
+
+/* OUR TEAM STYLING */
+.our-team{
+    /* position: relative; */
+    background-color: #FEF9E6;
+    width: 100%;
+    min-height: 1287px;
+}
+.our-team h2{
+    text-align: center;
+    padding-top: 63px;
+    font-family: lobster;
+    font-size: 3rem;
+    font-weight: 400;
+}
+/* FLEX PARENT */
+.flex-1, .flex-2{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    margin-bottom: 1.5%;
+
+}
+.our-team-flex img{
+    border-radius: 50%;
+    object-position: 50% 13.69%;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+/* FLEN CHILDS */
+.team-flex-1,.team-flex-2,.team-flex-3,.team-flex-4,.team-flex-5,.team-flex-6{
+    /* position: relative; */
+    min-width:360px;
+    min-height: 505px;
+    margin-right: 1.5%;
+    background-color:white;
+   
+}
+.our-team-flex h5{
+    color:#F1C517;
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.our-team-flex p{
+    margin-top: 0;
+    font-family: montserrat;
+    font-style: italic;
+    text-align: center;
+}
+.our-team-flex i{
+    font-size: 3.5rem;
+    position: relative;
+    left: 43%;
+}
+.team-flex-6 p{
+    width: 280px;
+    height: 230px;
+    font-family: open-sans !important;
+    font-style: normal !important;
+    text-align: left;
+    position: relative;
+    top: 25%;
+    left: 8%;
+    line-height: 1.6;
+}
+.team-flex-6 img{
+    position: relative;
+    top: 20%;
+    left: 25%;
+}
+
+
+/* GALLERY STYLING */
+.gallery{
+    /* border: 1px solid; */
+    width: 100%;
+    min-height: 1100px;
+    position: relative;
+}
+.gallery h2{
+    text-align: center;
+    padding-top: 4%;
+    font-family: lobster;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.gallery-flex-1,.gallery-flex-2{
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2.5%;
+    /* gap: 40px;
+    padding-left: 16%; */
+}
+.gallery-flex img{
+    object-fit: cover;
+    width: 342px;
+    height: 342px;
+    transition: 1s ease;
+
+}
+.gallery-flex img:hover{
+    /* -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2); */
+
+    transform: scale(1.1);
+    transition: 500ms ease;
+}
+.gallery-pic-1,.gallery-pic-2,.gallery-pic-3,.gallery-pic-4,.gallery-pic-5,.gallery-pic-6{
+    overflow: hidden;
+    margin-right: 2.5%;
+
+
+}
+.gallery p{
+    /* border: 1px solid; */
+    font-family: open-sans !important;
+    width: 100%;
+    text-align: center;
+    margin: 3% auto 1%;
+}
+.gallery #gallery-btn{
+    background-color: #f1c50e;
+
+    padding: 20px 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 30px;
+    border-style: none;  
+    animation-name: learnbtn;
+    animation-duration: 1500ms;
+    position: absolute;
+    left: 46%;
+}
+.gallery #gallery-btn:hover{
+    background-color: black;
+    color: white;
+}
+@keyframes learnbtn {
+    0%{
+        left: 20%;
+        opacity: 0;
+    }
+    /* 50%{
+        left:23%;
+        opacity: 0.5;
+    } */
+    100%{
+        left: 46%;
+        opacity: 1.0;
+    }
+}
+
+/* CONSULTATION BOOKING */
+.consult-book{
+    height: 400px;
+    width: 100%;
+    background-color: #F1C50E;
+    text-align: center;
+    line-height: 1.1;
+}
+.consult-book h2{
+    /* border: 1px solid; */
+    font-family: lobster;
+    font-size: 3rem;
+    font-weight: 400;
+    position: relative;
+    top: 120px;
+}
+.consult-book p{
+    font-size: 1.1rem;
+    position: relative;
+    top: 110px ;
+}
+.consult-book #consult-btn{
+    background-color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 30px;
+    border-style: none;
+    position: relative;
+    top: 130px;
+    width: 210px;
+    height: 62px;
+}
+.consult-book input:hover{
+    background-color: whitesmoke;
+}
+
+/* SKILLS STYLING */
+.skills{
+    height: 684px;
+    min-width: 1496px;
+    /* border: 1px solid red; */
+    background-image: url(images/bg-img-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills-flex-1,.skills-flex-2,.skills-flex-3,.skills-flex-4{
+    height: 258px;
+    width: 425px;
+    margin-bottom: 6%;
+    margin-right: 10%;
+    padding: 10px;
+    /* border: 1px solid; */    
+    
+}
+.skills img{
+    margin-left: 38%;
+}
+.skills h5{
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.skills p{
+    font-family: open-sans;
+    line-height: 1.6;
+}
+
+
+/* WHAT PARENTS SAY STYLING */
+.parents-comment{
+    /* border: 1px solid; */
+    background-color: #FEF9E6;
+    width: 100%;
+    min-height: 1050px;
+}
+.parents-comment h2{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 63px;
+    font-family: lobster;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.parent-flex-1,.parent-flex-2{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.parent-1,.parent-2,.parent-3,.parent-4,.parent-5,.parent-6{
+    width: 360px;
+    height: 390px;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    /* border: 1px solid; */
+}
+.parents img{
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: 50% ;
+    border-style: none;
+    position: relative;
+    left: 35%;
+    top: 30px;
+}
+.parents p{
+    /* border: 1px solid; */
+    font-family: open-sans;
+    word-wrap: break-word;
+    color: #999999 !important;
+    text-align: justify;
+    margin: 10px 20px 20px 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    word-spacing: 0.1em;
+}
+.parents #date{
+    text-align: center;
+    margin-top: 20px !important;
+}
+.parents h5{
+    /* border:  1px solid; */
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: montserrat;
+    text-align: center;
+    margin-top:50px;
+}
+
+/* COUNTER STYLING */
+.counter{
+    width: 100%;
+    height: 648px;
+    background-color: #F1C50E;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    text-align: center;    
+    padding-top: 4%;
+
+}
+.counter h3{
+    font-family: montserrat;
+    width: 365px;
+    height: 72px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.counter h5{
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    /* border: 1px solid; */
+}
+.counter p{
+    /* border: 1px solid; */
+    font-size: 1rem;
+    font-family: open-sans;
+}
+.counter img{
+    margin-top: 30px;
+}
+.counter-{
+ /* border: 1px solid; */
+ margin-top:5px ;
+}
+
+/* FORM STYLING */
+.form{
+    width: 100%;
+    background-image: url(images/form-bg.jpeg);
+    background-position: 0% 44.93%;
+    background-repeat: no-repeat;
+    background-size: 125%;
+    min-height: 786px;
+    /* border: 1px solid; */
+}
+.form-details{
+    width: 694px;
+    height: 390px;
+    background-color: white;
+    border-bottom-right-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    position: relative;
+    top: 327px;
+    left: 70px;
+    /* border: 1px solid; */
+
+}
+.form-details h5{
+    margin: 0;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: montserrat;
+    padding: 50px 40px 0px 120px;
+    text-align: left;
+    /* border: 1px solid; */
+}
+/* division */
+.inputs{
+    padding-left: 120px;
+    padding-top: 20px;
+    right: 10px;
+    line-height: 1.6;
+
+}
+#input-types{
+    background-color: #f2f2f2;
+    border-style: none;
+    border-radius: 50px !important;
+    padding-left: 12px;
+    font-size: medium;
+    height: 40px;
+    width: 510px;
+}
+input[type="email"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="button"]{
+    background-color: #F1C517;
+    margin-top: 10px;
+    padding: 12px 25px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 30px;
+    border-style: none;
+}
+#mail{
+    /* border: 1px solid; */
+    position: relative;
+    top: 10px;
+}
+label{
+    font-family: montserrat;
+}
+.inputs p{
+    font-family: open-sans;
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 216px;
+    background-color: #333333;
+    color: white;
+}
+footer p{
+    margin: 0;
+    font-family: open-sans;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding-top: 50px;
+}
+#credits{
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
