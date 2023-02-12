@@ -309,7 +309,7 @@ body{
         opacity: 1.0;
     }
 }
-@media screen and (max-width:1496px) {
+@media screen and (max-width:1536px) {
     .gallery #gallery-btn{
         background-color: #f1c50e;
     
