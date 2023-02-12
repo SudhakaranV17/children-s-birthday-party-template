@@ -295,10 +295,6 @@ body{
     position: absolute;
     left: 46%;
 }
-.gallery #gallery-btn:hover{
-    background-color: black;
-    color: white;
-}
 @keyframes learnbtn {
     0%{
         left: 20%;
@@ -312,6 +308,40 @@ body{
         left: 46%;
         opacity: 1.0;
     }
+}
+@media screen and (max-width:1496px) {
+    .gallery #gallery-btn{
+        background-color: #f1c50e;
+    
+        padding: 20px 36px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 1rem;
+        border-radius: 30px;
+        border-style: none;  
+        animation-name: learnbtn;
+        animation-duration: 1500ms;
+        position: absolute;
+        left: 44%;
+    }
+    @keyframes learnbtn {
+        0%{
+            left: 20%;
+            opacity: 0;
+        }
+        /* 50%{
+            left:23%;
+            opacity: 0.5;
+        } */
+        100%{
+            left: 44%;
+            opacity: 1.0;
+        }
+    }
+}
+.gallery #gallery-btn:hover{
+    background-color: black;
+    color: white;
 }
 
 /* CONSULTATION BOOKING */
