@@ -322,11 +322,11 @@ body{
         animation-name: learnbtn;
         animation-duration: 1500ms;
         position: absolute;
-        left: 44%;
+        left: 43%;
     }
     @keyframes learnbtn {
         0%{
-            left: 20%;
+            left: 15%;
             opacity: 0;
         }
         /* 50%{
@@ -334,7 +334,7 @@ body{
             opacity: 0.5;
         } */
         100%{
-            left: 44%;
+            left: 43%;
             opacity: 1.0;
         }
     }
